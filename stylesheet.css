@@ -1,21 +1,27 @@
 body{
-color: white;
-background-image: linear-gradient(to bottom right, lightgrey, grey, black);
-font-family: Arial, Helvetica, sans-serif;
+margin : 0;
+padding : 0;
+background-color : black;
 }
 
 h1 {
-  background-color: green;
-  color: yellow;
-  outline-style: double;
-  text-align: center;
-  text-decoration: underline;
-  text-shadow: 3px 2px red;
+top: 50%
+transform: translateY(-50%);
+margin: 0;
+padding: 0;
+width: 100%;
+text-align: center;
+font-size : 75px;
+font-family: sans-serif;
+background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+
 }
 p {
 	font-size: 20px;
-	border-style: dotted;
 	margin: 50px;
-	color: darkgreen;
+	background-color : orange;
+	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 }
